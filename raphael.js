@@ -4,7 +4,11 @@ $(function () {
   paper = Raphael("canvas", 640, 480);
   btn = document.getElementById("run");
   cd = document.getElementById("code");
-  $("#code").val(localStorage.getItem('code'));
+  if( localStorage.getItem('code')) {
+    $("#code").val(localStorage.getItem("code"));
+  } else {
+    $("#code").val('paper.circle(420, 340, 60).animate({fill: "blue", stroke: "#000", "stroke-width": 40, "stroke-opacity": 0.5}, 2000); ');
+  }
 
   setCanvas();
   $("#run").live("click", function() {
