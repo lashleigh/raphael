@@ -1,48 +1,28 @@
 body {
-    background: #333;
-    color: #fff;
-    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
-}
-#holder {
-    height: 480px;
-    left: 50%;
-    margin: -240px 0 0 -320px;
-    position: absolute;
-    top: 50%;
-    width: 640px;
-}
-#copy {
-    bottom: 0;
-    font: 300 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
-    position: absolute;
-    right: 1em;
-    text-align: right;
-}
-#copy a {
-    color: #fff;
-}
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+  background: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 h1 {
-    font-weight: 400;
-    height: 5%;
+  font-weight: 400;
+  height: 5%;
 }
 #canvas {
-    height: 480px;
-    margin: 0 auto;
-    text-align: left;
-    width: 640px;
+  margin: 0 auto;
+  position: relative;
 }
 #code {
-    font-family: Consolas, Monaco, "Lucida Console", monospace;
-    height: 4em;
-    margin: 10px;
-    padding: 0;
-    width: 90%;
+  font-family: Consolas, Monaco, "Lucida Console", monospace;
+  height: 4em;
+  margin: 0 auto;
+  position: relative;
+}
+#run_container {
+  width: 100%;
 }
 #run {
-    font-size: 2em;
+  font-size: 2em;
 }

@@ -9,5 +9,8 @@ h3. How to use the playground (on a Mac)
 * Clone this project into your Sites directory
 * Change the head in index.html to point to your copy of Raphael and jquery
 
+h3. How is this playground different?
+
+I made use of localStorage to save changes made inside the textarea.  This means that you can try things out and when you refresh the page, or if you go away and come back later, your last entry will still be available.
 
 
