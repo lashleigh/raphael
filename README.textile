@@ -1,16 +1,13 @@
-h2. Improved "Raphael playground":http://raphaeljs.com/playground.html
-
-Direct from the "Raphael website":http://raphaeljs.com/ :
-
-Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. If you want to create your own specific chart or image crop and rotate widget, for example, you can achieve it simply and easily with this library.
+h2. Raphael playground
 
 h3. How to use the playground (on a Mac)
 
 * Clone this project into your Sites directory
-* Change the head in index.html to point to your copy of Raphael and jquery
+* Open up http://10.0.0.102/~YOUR_USER_NAME_HERE/raphael/index.html
+* Enjoy!
 
-h3. How is this playground different?
-
-I made use of localStorage to save changes made inside the textarea.  This means that you can try things out and when you refresh the page, or if you go away and come back later, your last entry will still be available.
+I've only played with it using Google Chrome browser. There is some logic in
+the javascript that sizes elements to fit full screen on your monitor. I find it 
+most enjoyable to view the page in full screen mode. 
 
 

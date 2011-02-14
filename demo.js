@@ -34,7 +34,7 @@ function setCanvas() {
   paper.clear();
   paper.rect(0, 0, canvas_width, canvas_height, 10).attr({fill: "#fff", stroke: "none"});
   try {
-    (new Function("paper", "window", "document", $("#code").val() ) ).call(paper, paper);
+    (demo2 = new Function("paper", "window", "document", $("#code").val() ) ).call(paper, paper);
   } catch (e) {
     alert(e.message || e);
   }
