@@ -1,1 +1,13 @@
-h2. This should work?
+h2. Improved "Raphael playground":http://raphaeljs.com/playground.html
+
+Direct from the "Raphael website":http://raphaeljs.com/ :
+
+Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. If you want to create your own specific chart or image crop and rotate widget, for example, you can achieve it simply and easily with this library.
+
+h3. How to use the playground (on a Mac)
+
+* Clone this project into your Sites directory
+* Change the head in index.html to point to your copy of Raphael and jquery
+
+
+
