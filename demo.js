@@ -1,4 +1,5 @@
 var paper;
+var demo1, demo2, demo3, demo4;
 var canvas_width;
 var canvas_height;
 
@@ -8,7 +9,11 @@ $(function () {
   if( localStorage.getItem('code')) {
     $("#code").val(localStorage.getItem("code"));
   } else {
-    $("#code").val( 'paper.circle(320, 240, 60).animate({fill: "#223fa3", stroke: "#000", "stroke-width": 80, "stroke-opacity": 0.5}, 2000);\n'+ 
+    $("#code").val( 'demo1 = paper.circle(320, 240, 60).animate({fill: "#223fa3", stroke: "#000", "stroke-width": 80, "stroke-opacity": 0.5}, 2000);\n'+ 
+                    'demo1.node.onclick = function () {\n'+
+                    '    demo1.attr("fill", "red");\n'+
+                    '};\n\n'+
+                    'var st = paper.set(); \n'+
                     'var st = paper.set(); \n'+
                     'st.push( \n'+
                     '  paper.rect(800, 300, 50, 50, 10), \n'+
